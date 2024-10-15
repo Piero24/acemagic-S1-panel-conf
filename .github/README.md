@@ -1,6 +1,37 @@
-# ACEMAGIC S1 Mini PC Front Panel Configuration
+<div id="top"></div>
+<br/>
+<br/>
 
-My Configuration of the Front Panel for the ACEMAGIC S1 Mini PC.
+<p align="center">
+  <img src="./logo.png" width="100" height="100">
+</p>
+<h1 align="center">
+    <a href="https://github.com/Piero24/acemagic-S1-panel-conf">ACEMAGIC S1 Mini PC Front Panel Configuration</a>
+</h1>
+<p align="center">
+    <a href="https://github.com/Piero24/acemagic-S1-panel-conf/commits/master">
+        <img src="https://img.shields.io/github/last-commit/piero24/acemagic-S1-panel-conf">
+    </a>
+    <a href="https://github.com/Piero24/acemagic-S1-panel-conf">
+        <img src="https://img.shields.io/badge/Maintained-yes-green.svg">
+    </a>
+    <a href="https://github.com/Piero24/twitch-stream-viewer/issues">
+        <img src="https://img.shields.io/github/issues/piero24/acemagic-S1-panel-conf">
+    </a>
+    <a href="https://github.com/Piero24/acemagic-S1-panel-conf/blob/master/LICENSE">
+        <img src="https://img.shields.io/github/license/piero24/acemagic-S1-panel-conf">
+    </a>
+</p>
+<p align="center">
+    My Configuration of the Front Panel for the ACEMAGIC S1 Mini PC.
+    <br/>
+    <a href="https://github.com/Piero24/acemagic-S1-panel-conf/issues">Report Bug</a>
+    •
+    <a href="https://github.com/tjaworski/AceMagic-S1-LED-TFT-Linux/tree/main">Project</a>
+</p>
+
+---
+
 The ACEMAGIC S1 Mini PC allows configuration of the front display through software on Windows, enabling the display of various useful information and performance statistics. However, this program is not natively available on Linux. Thanks to the project [AceMagic-S1-LED-TFT-Linux](https://github.com/tjaworski/AceMagic-S1-LED-TFT-Linux/tree/main) created by [tjaworski](https://github.com/tjaworski), it is now possible to customize the display on Linux as well, using a web interface.
 
 This guide provides the installation process I followed to set up the software on the S1, along with the configuration files used for the theme.
