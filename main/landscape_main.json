@@ -1,0 +1,460 @@
+{
+   "orientation": "landscape",
+   "refresh": "update",
+   "screens": [
+      {
+         "id": 2,
+         "name": "main",
+         "background": "#000000",
+         "duartion": 0,
+         "widgets": [
+            {
+               "id": 2,
+               "group": 1,
+               "name": "text",
+               "rect": {
+                  "x": 10,
+                  "y": 5,
+                  "width": 50,
+                  "height": 12
+               },
+               "sensor": true,
+               "value": "clock",
+               "format": "{0}",
+               "refresh": 1000,
+               "debug_frame": false,
+               "font": "bold 13px Arial",
+               "color": "#878787",
+               "align": "left"
+            },
+            {
+               "id": 3,
+               "group": 1,
+               "name": "text",
+               "rect": {
+                  "x": 65,
+                  "y": 5,
+                  "width": 135,
+                  "height": 12
+               },
+               "sensor": true,
+               "value": "network_enp1s0",
+               "format": "{0}: {17}",
+               "refresh": 1000,
+               "debug_frame": false,
+               "font": "bold 13px Arial",
+               "color": "#72c0e3",
+               "align": "center"
+            },
+            {
+               "id": 4,
+               "group": 1,
+               "name": "text",
+               "rect": {
+                  "x": 225,
+                  "y": 5,
+                  "width": 85,
+                  "height": 12
+               },
+               "sensor": true,
+               "value": "calendar",
+               "format": "{5} {0}",
+               "refresh": 1000,
+               "debug_frame": false,
+               "font": "bold 13px Arial",
+               "color": "#878787",
+               "align": "left"
+            },
+            {
+               "id": 5,
+               "group": 1,
+               "name": "doughnut_chart",
+               "rect": {
+                  "x": 10,
+                  "y": 25,
+                  "width": 55,
+                  "height": 55
+               },
+               "sensor": true,
+               "value": "cpu_usage",
+               "format": "{0}",
+               "refresh": 1000,
+               "debug_frame": false,
+               "used": "#00e600",
+               "free": "#4d4d4d",
+               "rotation": "",
+               "cutout": "",
+               "circumference": ""
+            },
+            {
+               "id": 6,
+               "group": 1,
+               "name": "doughnut_chart",
+               "rect": {
+                  "x": 10,
+                  "y": 100,
+                  "width": 55,
+                  "height": 55
+               },
+               "sensor": true,
+               "value": "memory",
+               "format": "{2}",
+               "refresh": 1000,
+               "debug_frame": false,
+               "used": "#00e600",
+               "free": "#4d4d4d",
+               "rotation": "",
+               "cutout": "",
+               "circumference": ""
+            },
+            {
+               "id": 7,
+               "group": 1,
+               "name": "iconify",
+               "rect": {
+                  "x": 22,
+                  "y": 41,
+                  "width": 30,
+                  "height": 30
+               },
+               "sensor": true,
+               "value": "cpu_usage",
+               "format": "memory",
+               "refresh": 1000,
+               "debug_frame": false,
+               "iconSet": "mdi",
+               "color": "#4d4d4d"
+            },
+            {
+               "id": 8,
+               "group": 1,
+               "name": "iconify",
+               "rect": {
+                  "x": 24,
+                  "y": 118,
+                  "width": 26,
+                  "height": 25
+               },
+               "sensor": true,
+               "value": "memory",
+               "format": "memory-alt",
+               "refresh": 1000,
+               "debug_frame": false,
+               "iconSet": "material-symbols",
+               "color": "#4d4d4d"
+            },
+            {
+               "id": 9,
+               "group": 1,
+               "name": "text",
+               "rect": {
+                  "x": 10,
+                  "y": 76,
+                  "width": 57,
+                  "height": 15
+               },
+               "sensor": true,
+               "value": "cpu_usage",
+               "format": "{0}%",
+               "refresh": 1000,
+               "debug_frame": false,
+               "font": "bold 13px Arial",
+               "color": "#878787",
+               "align": "center"
+            },
+            {
+               "id": 10,
+               "group": 1,
+               "name": "text",
+               "rect": {
+                  "x": 10,
+                  "y": 152,
+                  "width": 57,
+                  "height": 15
+               },
+               "sensor": true,
+               "value": "memory",
+               "format": "{2}%",
+               "refresh": 1000,
+               "debug_frame": false,
+               "font": "bold 12px Arial",
+               "color": "#878787",
+               "align": "center"
+            },
+            {
+               "id": 11,
+               "group": 1,
+               "name": "text",
+               "rect": {
+                  "x": 70,
+                  "y": 25,
+                  "width": 35,
+                  "height": 35
+               },
+               "sensor": true,
+               "value": "cpu_usage",
+               "format": "CPU",
+               "refresh": 1000,
+               "debug_frame": false,
+               "font": "bold 15px Arial",
+               "color": "#878787",
+               "align": "left"
+            },
+            {
+               "id": 12,
+               "group": 1,
+               "name": "text",
+               "rect": {
+                  "x": 70,
+                  "y": 50,
+                  "width": 85,
+                  "height": 15
+               },
+               "sensor": true,
+               "value": "cpu_temp",
+               "format": "Temp:       {0}°C",
+               "refresh": 1000,
+               "debug_frame": false,
+               "font": "12px Arial",
+               "color": "#878787",
+               "align": "left"
+            },
+            {
+               "id": 13,
+               "group": 1,
+               "name": "text",
+               "rect": {
+                  "x": 70,
+                  "y": 68,
+                  "width": 85,
+                  "height": 15
+               },
+               "sensor": true,
+               "value": "cpu_power",
+               "format": "Watt:         {0}W",
+               "refresh": 1000,
+               "debug_frame": false,
+               "font": "12px Arial",
+               "color": "#878787",
+               "align": "left"
+            },
+            {
+               "id": 14,
+               "group": 1,
+               "name": "text",
+               "rect": {
+                  "x": 70,
+                  "y": 105,
+                  "width": 35,
+                  "height": 15
+               },
+               "sensor": true,
+               "value": "memory",
+               "format": "RAM",
+               "refresh": 1000,
+               "debug_frame": false,
+               "font": "bold 15px Arial",
+               "color": "#878787",
+               "align": "left"
+            },
+            {
+               "id": 15,
+               "group": 1,
+               "name": "text",
+               "rect": {
+                  "x": 70,
+                  "y": 125,
+                  "width": 85,
+                  "height": 15
+               },
+               "sensor": true,
+               "value": "memory",
+               "format": "Use:     {14}",
+               "refresh": 1000,
+               "debug_frame": false,
+               "font": "12px Arial",
+               "color": "#878787",
+               "align": "left"
+            },
+            {
+               "id": 16,
+               "group": 1,
+               "name": "text",
+               "rect": {
+                  "x": 70,
+                  "y": 143,
+                  "width": 85,
+                  "height": 15
+               },
+               "sensor": true,
+               "value": "memory",
+               "format": "Swap:     {15}",
+               "refresh": 1000,
+               "debug_frame": false,
+               "font": "12px Arial",
+               "color": "#878787",
+               "align": "left"
+            },
+            {
+               "id": 17,
+               "group": 1,
+               "name": "iconify",
+               "rect": {
+                  "x": 175,
+                  "y": 20,
+                  "width": 25,
+                  "height": 25
+               },
+               "sensor": true,
+               "value": "network_enp1s0",
+               "format": "cloud-arrow-down-outline",
+               "refresh": 1000,
+               "debug_frame": false,
+               "iconSet": "mdi",
+               "color": "#878787"
+            },
+            {
+               "id": 18,
+               "group": 1,
+               "name": "text",
+               "rect": {
+                  "x": 205,
+                  "y": 30,
+                  "width": 105,
+                  "height": 15
+               },
+               "sensor": true,
+               "value": "network_enp1s0",
+               "format": "{15}",
+               "refresh": 1000,
+               "debug_frame": false,
+               "font": "bold 12px Arial",
+               "color": "#878787",
+               "align": "left"
+            },
+            {
+               "id": 19,
+               "group": 1,
+               "name": "line_chart",
+               "rect": {
+                  "x": 175,
+                  "y": 48,
+                  "width": 135,
+                  "height": 25
+               },
+               "sensor": true,
+               "value": "network_enp1s0",
+               "format": "{2}",
+               "refresh": 1000,
+               "debug_frame": false,
+               "outline": "#5fabef",
+               "fill": "#7c59dc",
+               "points": 50,
+               "area": false
+            },
+            {
+               "id": 20,
+               "group": 1,
+               "name": "bar_chart",
+               "rect": {
+                  "x": 175,
+                  "y": 75,
+                  "width": 135,
+                  "height": 10
+               },
+               "sensor": true,
+               "value": "network_enp1s0",
+               "format": "{1}",
+               "refresh": 1000,
+               "debug_frame": false,
+               "outline": "#890cfa",
+               "fill": "#00ff44",
+               "points": 5,
+               "thickness": 100,
+               "zoom": 0,
+               "horizontal": true
+            },
+            {
+               "id": 21,
+               "group": 1,
+               "name": "iconify",
+               "rect": {
+                  "x": 175,
+                  "y": 95,
+                  "width": 25,
+                  "height": 25
+               },
+               "sensor": true,
+               "value": "network_enp1s0",
+               "format": "cloud-arrow-up-outline",
+               "refresh": 1000,
+               "debug_frame": false,
+               "iconSet": "mdi",
+               "color": "#878787"
+            },
+            {
+               "id": 22,
+               "group": 1,
+               "name": "text",
+               "rect": {
+                  "x": 205,
+                  "y": 105,
+                  "width": 105,
+                  "height": 15
+               },
+               "sensor": true,
+               "value": "network_enp1s0",
+               "format": "{16}",
+               "refresh": 1000,
+               "debug_frame": false,
+               "font": "bold 12px Arial",
+               "color": "#878787",
+               "align": "left"
+            },
+            {
+               "id": 23,
+               "group": 1,
+               "name": "line_chart",
+               "rect": {
+                  "x": 175,
+                  "y": 123,
+                  "width": 135,
+                  "height": 25
+               },
+               "sensor": true,
+               "value": "network_enp1s0",
+               "format": "{5}",
+               "refresh": 1000,
+               "debug_frame": false,
+               "outline": "#7c59dc",
+               "fill": "#5fabef",
+               "points": 50,
+               "area": false
+            },
+            {
+               "id": 24,
+               "group": 1,
+               "name": "bar_chart",
+               "rect": {
+                  "x": 175,
+                  "y": 150,
+                  "width": 135,
+                  "height": 10
+               },
+               "sensor": true,
+               "value": "network_enp1s0",
+               "format": "{4}",
+               "refresh": 1000,
+               "debug_frame": false,
+               "outline": "#890cfa",
+               "fill": "#00ff44",
+               "points": 5,
+               "thickness": 100,
+               "zoom": 0,
+               "horizontal": true
+            }
+         ],
+         "wallpaper": "themes/main/black_bg.png"
+      }
+   ]
+}
