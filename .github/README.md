@@ -85,8 +85,8 @@ Below are examples of the output on the front panel of the ACEMAGIC S1 Mini PC.
 
     <img src="status_ok.png" alt="First Image" width="auto"/>
 
->[!IMPORTANT]:
->If the service is not running, try following [these]().
+> [!IMPORTANT]
+> If the service is not running, try following [these](https://github.com/Piero24/acemagic-S1-panel-conf/blob/main/.github/Error.md).
 
 7. Next Step: Import Custom Themes and Configuration
 
