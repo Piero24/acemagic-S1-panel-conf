@@ -36,7 +36,7 @@ The ACEMAGIC S1 Mini PC allows configuration of the front display through softwa
 
 This guide provides the installation process I followed to set up the software on the S1, along with the configuration files used for the theme.
 
-## Example Output
+## Output Example
 
 Below are examples of the output on the front panel of the ACEMAGIC S1 Mini PC.
 
@@ -52,7 +52,7 @@ Below are examples of the output on the front panel of the ACEMAGIC S1 Mini PC.
 </table>
 
 
-## Installazione
+## How to install
 
 1. Install Node Version Manager (NVM) as explained [here](https://github.com/nvm-sh/nvm).
 
@@ -123,7 +123,7 @@ Below are examples of the output on the front panel of the ACEMAGIC S1 Mini PC.
 
 If everything works as expected, you can proceed to the next step of importing custom themes and configuring the system.
 
-## Importazione del tema custom
+## How to import the custom theme
 
 1. Stop the service as follows:
 
